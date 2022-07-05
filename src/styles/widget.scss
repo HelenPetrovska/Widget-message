@@ -1,0 +1,10 @@
+.widget {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  &__message {
+    padding: 13px 36px 13px 19px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,24 @@
+.message {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+
+  width: 300px;
+
+  transition: all 0.5s;
+
+  &__hello {
+    padding: 10px;
+    box-shadow: 0 0 5px 0 rgba(#000, 0.22);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  &__write {
+    padding: 10px;
+    color: grey;
+    box-shadow: 0 2px 5px 0 rgba(#000, 0.22);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}

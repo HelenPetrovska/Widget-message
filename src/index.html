@@ -3,11 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon.ico"
+    >
+    <title>Widget</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <div class="widget">
+      <div class="widget__message message message--hide">
+        <div class="message__hello">
+          При­вет 👋🏻 На­пиши­те, ес­ли нуж­но по­казать что тут у нас и где или по­мочь с ре­гис­тра­ци­ей 🙂
+        </div>
+
+        <div class="message__write">
+          Написать в чат...
+        </div>
+      </div>
+
+      <div class="avatar avatar--hide">
+        <div class="avatar__wrapper">
+          <img
+            src="./images/avatar.png"
+            class="avatar__img"
+            alt="operator-avatar">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./scripts/main.js"></script>
   </body>
 </html>

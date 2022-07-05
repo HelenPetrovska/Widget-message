@@ -1,7 +1,44 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./widget.scss";
+@import "./message.scss";
+@import "./avatar.scss";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  background: $c-gray;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.message--show,
+.avatar--show {
+  display: block;
+}
+
+.message--hide,
+.avatar--hide {
+  display: none;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes color-border {
+  from {
+    border: 3px solid transparent;
+    transform: scale(1, 1);
+  }
+
+  to {
+    border: 3px solid green;
+    transform: scale(1.2, 1.2);
+  }
 }
