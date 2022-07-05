@@ -1,7 +1,7 @@
 .message {
   position: fixed;
-  right: 20px;
-  bottom: 100px;
+  right: 0;
+  bottom: 120px;
 
   width: 300px;
 
@@ -19,6 +19,14 @@
     color: grey;
     box-shadow: 0 2px 5px 0 rgba(#000, 0.22);
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  }
+
+  &__corner {
+    width: 25px;
+    position: fixed;
+    right: 15px;
+    bottom: 112px;
+    filter: drop-shadow(0 4px 3px rgba(#000, 0.1));
+    transform: rotate(22deg);
   }
 }
