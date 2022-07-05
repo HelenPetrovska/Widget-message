@@ -1,4 +1,23 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+## VBET
+
+[DEMO LINK](https://helenpetrovska.github.io/Widget-message/)
+
+## Description
+  This is a widget-message.
+
+## Local development
+
+  Dependencies
+    Node v12.16.3 and higher
+    NPM v6.14.4 and higher
+    eslint v5.16.0
+    stylelint v13.5.0
+    stylelint-scss v3.17.2
+
+  Installing
+    Fork and clone this repository
+    Run npm install in your terminal
+    Run npm start
+
+## Troubleshooting
+  Any advise for common problems or issues. For any contributing or problem solving you could find me [here](https://github.com/HelenPetrovska)
