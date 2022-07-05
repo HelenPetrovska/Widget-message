@@ -1,4 +1,4 @@
-## VBET
+## Widget
 
 [DEMO LINK](https://helenpetrovska.github.io/Widget-message/)
 
